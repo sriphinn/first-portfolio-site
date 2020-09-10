@@ -1,0 +1,110 @@
+/* -------  Body Styles ------- */
+body {
+  font-family: 'Assistant', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;	
+}
+a:link { color: sienna; }
+a:visited { color: sienna; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+a:hover {
+	text-decoration: underline;	
+}
+
+.thai {
+  font-family: Prompt, sans-serif;
+}
+
+/* -------  Header Styles ------- */
+
+header {
+  height: 650px;
+  background: url(images/peter-bridge.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  margin: 0px;
+  }
+
+header h2 a {
+  font-family: 'Pattaya', 'Helvetica Thai';
+  font-size: 24px;
+  margin: 20px 0px 20px 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+header h3 {
+  font-family: Assistant, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-size: 24px;
+}
+
+.navbar {
+  text-align: right;
+  font-family: 'Assistant', Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+/* General Styles */
+main {
+background-color: #ffffee;
+padding: 5px;
+}
+
+article {
+	padding: 0 25%;
+  margin: 35px 0;
+}
+
+ul, ol {
+  list-style-position: outside;
+  text-align: left;
+}
+
+ol {
+  margin: 0 20%;
+}
+
+ul {
+  margin: 0 40%;
+}
+
+hr {
+  width: 0%;
+  min-width: 20%;
+  max-width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #666;
+  position: relative;
+  transition: box-shadow 200ms ease-in-out;
+  box-shadow: 0px 0px 0px 0px #f9f9f9;
+}
+
+img {
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 38px;
+  }
+  header {
+    height: 450px;
+  }
+}
+
+
